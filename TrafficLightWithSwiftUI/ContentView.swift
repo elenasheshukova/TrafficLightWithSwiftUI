@@ -36,7 +36,7 @@ struct ContentView: View {
         .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
     
-    func changeSignal() {
+    private func changeSignal() {
         if currentSignal == 0 {
             textButton = "Next"
         }
